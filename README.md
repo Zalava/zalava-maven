@@ -12,8 +12,10 @@ Consumers use the GitHub Pages project endpoint:
 https://zalava.github.io/zalava-maven/
 ```
 
-Module API and contract kit `0.1.0-alpha.6` are built from verified Zalava
-commit [`1e21e64015c48fe45ea0cf74bb9531d3abefa68a`](https://github.com/Zalava/zalava/commit/1e21e64015c48fe45ea0cf74bb9531d3abefa68a).
+Module API and contract kit `0.1.0-alpha.7` are built from verified Zalava
+commit [`12de9a1087787104a49f7b558fd4570a536cec18`](https://github.com/Zalava/zalava/commit/12de9a1087787104a49f7b558fd4570a536cec18).
 The production API uses only JDK types; contracts now live under `org.zalava.api`
 and the kit under `org.zalava.api.testing`. This alpha changes Java packages and
 provider argument types, so modules must recompile against the matching API.
+
+Alpha.7 uses the Zalava verification route (`/api/zalava/providers/...`) and updated SDK/contract-kit identity wording. Existing immutable versions remain available.
