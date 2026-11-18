@@ -19,3 +19,7 @@ and the kit under `org.zalava.api.testing`. This alpha changes Java packages and
 provider argument types, so modules must recompile against the matching API.
 
 Alpha.7 uses the Zalava verification route (`/api/zalava/providers/...`) and updated SDK/contract-kit identity wording. Existing immutable versions remain available.
+
+Module API and contract kit `0.1.0-alpha.8` are built from Zalava commit
+[`00a8688ec6bdbc42e2b9c5bbc9dbfe0d951c2aa2`](https://github.com/Zalava/zalava/commit/00a8688ec6bdbc42e2b9c5bbc9dbfe0d951c2aa2).
+This version adds managed-service network isolation capabilities.
