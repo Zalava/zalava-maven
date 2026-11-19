@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.zalava",
+    "module": "module-api-test",
+    "version": "0.1.0-alpha.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.zalava",
+          "module": "module-api",
+          "version": {
+            "requires": "0.1.0-alpha.9"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter",
+          "version": {
+            "requires": "6.0.3"
+          }
+        },
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.27.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "module-api-test-0.1.0-alpha.9.jar",
+          "url": "module-api-test-0.1.0-alpha.9.jar",
+          "size": 27057,
+          "sha512": "a96723c1914343ad4350f4248846f104154c694db0e9e237699c7f5069a5673cb3d55aa51b2c5c153e36cc9bf389d73831c52aef991c48431d7bf37b9288d169",
+          "sha256": "4140722580208d3b0bc15831582ca3f24179b5bdc03e726cbe30f94eeabcde65",
+          "sha1": "130bbb0d1b2a50bce2968ff0617e17eab05f5ebf",
+          "md5": "e61ed6abec6d9a68d505797e5bf7a9ed"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.zalava",
+          "module": "module-api",
+          "version": {
+            "requires": "0.1.0-alpha.9"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter",
+          "version": {
+            "requires": "6.0.3"
+          }
+        },
+        {
+          "group": "org.assertj",
+          "module": "assertj-core",
+          "version": {
+            "requires": "3.27.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "module-api-test-0.1.0-alpha.9.jar",
+          "url": "module-api-test-0.1.0-alpha.9.jar",
+          "size": 27057,
+          "sha512": "a96723c1914343ad4350f4248846f104154c694db0e9e237699c7f5069a5673cb3d55aa51b2c5c153e36cc9bf389d73831c52aef991c48431d7bf37b9288d169",
+          "sha256": "4140722580208d3b0bc15831582ca3f24179b5bdc03e726cbe30f94eeabcde65",
+          "sha1": "130bbb0d1b2a50bce2968ff0617e17eab05f5ebf",
+          "md5": "e61ed6abec6d9a68d505797e5bf7a9ed"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "module-api-test-0.1.0-alpha.9-javadoc.jar",
+          "url": "module-api-test-0.1.0-alpha.9-javadoc.jar",
+          "size": 4190993,
+          "sha512": "a01991d08a2729ab37e9c8564af3f6c0eb0b91f3e1b285cd1e4567461f313a1ccf81ef8d081223ec5a850645262dd2bd86a2b5576e00d74cc4ea14d30a343888",
+          "sha256": "b40513579c895a7966ca2909151d9fb180056810f7b749e8cac8f16492cfa657",
+          "sha1": "5b60b1ae7127852713e2b73652d258c5d0d638de",
+          "md5": "dc055ae1b792311a37b5d07e3c32744b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "module-api-test-0.1.0-alpha.9-sources.jar",
+          "url": "module-api-test-0.1.0-alpha.9-sources.jar",
+          "size": 10865,
+          "sha512": "11c3b1848dcc8b212c1ce73b3ea3bcc1df1bb8ee00668c98033250b09dfec737cebbeefd0d2cd0d93fc4a4f64ca99b3d8d9a5475eda8cc386f6e1c4d9dbb2d6b",
+          "sha256": "827f0d4b21abd28dd4fefc460db2502ac617e0a4b4dd6cdf96ed0c1590f3ab66",
+          "sha1": "60a43b4d17ef0f59594a6827c2c30cf36822c0d5",
+          "md5": "f7de77dec3f1cb5a15fea9c035e4bc63"
+        }
+      ]
+    }
+  ]
+}

@@ -23,3 +23,7 @@ Alpha.7 uses the Zalava verification route (`/api/zalava/providers/...`) and upd
 Module API and contract kit `0.1.0-alpha.8` are built from Zalava commit
 [`00a8688ec6bdbc42e2b9c5bbc9dbfe0d951c2aa2`](https://github.com/Zalava/zalava/commit/00a8688ec6bdbc42e2b9c5bbc9dbfe0d951c2aa2).
 This version adds managed-service network isolation capabilities.
+
+Module API and contract kit `0.1.0-alpha.9` are built from Zalava commit
+[`f02b86d341cc841f4f596457ab040ebc865a27e6`](https://github.com/Zalava/zalava/commit/f02b86d341cc841f4f596457ab040ebc865a27e6).
+This version adds scoped access to the approved managed OCR worker.
